@@ -1,12 +1,50 @@
 body{
-  background: black;
+  background: #272727;
   text-align: center;
   margin-right: 10%;
   margin-left: 10%;
-} 
+}
+
+div.Homepagelink{
+  position: absolute;
+  left: 8.96%;
+  right: 77.5%;
+  top: 4.69%;
+  bottom: 92.09%; 
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 40px;
+  color: #FFFFFF;
+
+}
+
+a:link {
+  color: #ffffff;
+  }
+  a:visited {
+  color: #ffffff;
+  }
+  a:hover {
+  color: 0295FF;
+  }
+
+
+div.Headingcopy{
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  position: center;
+  margin-top: 100px;
+  color: #FFFFFF;
+}
+
 
 h1 {
-  size: 50px;
+  size: 30px;
   Margin-bottom: 20px;
   font-family: 'Roboto', sans-serif;
 }
