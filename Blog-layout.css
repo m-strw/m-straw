@@ -1,5 +1,5 @@
 body{
-    background: whitesmoke;
+    background: white;
     text-align: center;
     margin-right: 10%;
     margin-left: 10%;
@@ -20,6 +20,6 @@ body{
     font-family: 'robot', sans-serif;
   }
   
-  .grey-font{
-    color: grey;
+  .white-font{
+    color: white;
   }
