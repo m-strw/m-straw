@@ -15,17 +15,24 @@ const Currentpro = () => {
     <div className= 'Card-Heading-Info'>
         <p className= 'pTag-Title' >CLBR.IO</p>
     </div>
+    
 
    <div className= 'Card-info'>
+        
+
         <p className = 'pTag-body'>
         An application that allows users to view a poem at random from a .json file, this was before I knew react native and data bases so I used handlebars. 
 
         I worked on this with two other students from my cohort and we pair programme this project.    
         </p>
-    </div>
+        
+        <img src="/images/CBLR-Small.png" alt="CBLR APP Image"/>
+      
     <div>
         <a className='pTag-body' href="">Learn More</a> 
     </div>
+    </div>
+
   </div>
  </div>
   
