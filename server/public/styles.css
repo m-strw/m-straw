@@ -19,13 +19,13 @@ p{
 }
 
 a {
-    color: #0060B6;
+    color: rgba(39, 39, 39, 1);
     text-decoration: none;
   }
     
   a:hover 
   {
-     color:#00A0C6; 
+     color:rgb(14, 14, 14); 
      text-decoration:none; 
      cursor:pointer;  
   }
@@ -129,4 +129,38 @@ h2{
     margin-left: 10%;
     margin-top: 5%;
     margin-right: 10%;
+}
+
+.larger-Card{
+    background: rgba(76, 114, 189, 1);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.15);
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    border-radius: 4px;
+}
+
+.pTag-Title{
+    margin-bottom: 0px;
+    color: rgba(76, 114, 189, 1);
+}
+
+.pTag-body{
+    padding-left: 5%;
+    color: rgba(238, 238, 238, 1);
+    font-size: medium;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+
+.Card-Heading-Info{
+    border-radius: 4px 4px 0px 0px;
+    height: 10%;
+    width: auto;
+    background: rgba(255, 255, 255, 1);
+    padding-left: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
 }

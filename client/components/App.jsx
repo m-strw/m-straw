@@ -14,6 +14,7 @@ const App = () => {
     <Nav/>
     <LandingPage/>
     <Bprojects/>
+    
   </>
 
     )
