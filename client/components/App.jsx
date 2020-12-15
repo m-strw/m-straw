@@ -3,7 +3,7 @@ import React from 'react'
 import Nav from './Nav'
 import LandingPage from './landingPage'
 import Bprojects from './Bprojects'
-
+import Currentpro from './Currentpro'
 
 
 
@@ -11,10 +11,11 @@ import Bprojects from './Bprojects'
 const App = () => {
   return (
   <>
-    <Nav/>
+    {/* <Nav/> */}
     <LandingPage/>
     <Bprojects/>
-    
+    <Currentpro/>
+
   </>
 
     )
