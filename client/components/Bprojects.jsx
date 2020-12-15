@@ -23,7 +23,26 @@ const Bprojects = () => {
       worked on this with two other students from my cohort and we pair programme this project.  
     </p>
    </div>
+   <div>
+     <a className='pTag-body' href="">Learn More</a> 
+   </div>
     </div>
+
+    
+   <div className= 'larger-Card-2'>
+    
+    <div className= 'Card-Heading-Info-2'>
+    <p className= 'pTag-Title-2' >Building Dyslexia Potential</p>
+    </div>
+   <div className= 'Card-info'>
+      <p className = 'pTag-body-2'>
+        An application that allows users to view a poem at random from a .json file, this was before I knew react native and data bases so I used handlebars. 
+
+        worked on this with two other students from my cohort and we pair programme this project.  
+      </p>
+    </div>
+   </div>
+
 
     </div>  
     )
