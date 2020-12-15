@@ -2,6 +2,7 @@ import React from 'react'
 
 import Nav from './Nav'
 import LandingPage from './landingPage'
+import Bprojects from './Bprojects'
 
 
 
@@ -12,6 +13,7 @@ const App = () => {
   <>
     <Nav/>
     <LandingPage/>
+    <Bprojects/>
   </>
 
     )

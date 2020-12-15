@@ -1,13 +1,13 @@
 
 body{
-    background-color: rgba(39, 39, 39, 1);
+    background-color: rgba(238, 238, 238, 1);
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
 
 p{
     margin-top: 0px;
-    color: rgba(255, 255, 255, 1);
+    color:rgba(39, 39, 39, 1);
     font-family: Roboto;
     font-size: 25px;
     font-style: normal;
@@ -32,14 +32,18 @@ a {
 
 h1{
     font-family: Roboto;
-    font-size: 30px;
+    font-size: 40px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
+    font-weight: 900;
+    line-height: 47px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
     
+}
+
+ul{
+    padding-left: 30%;
+    padding-right: 30%;
 }
 
 h2{
@@ -50,12 +54,17 @@ h2{
     line-height: 29px;
     letter-spacing: 0em;
     text-align: left;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(39, 39, 39, 1);
 
 }
 
+.red{
+    color: red;
+    font-style: normal;
+}
+
 .Nav{
-    color: white;
+    color:rgba(39, 39, 39, 1);
 
     position: relative;
     padding: 10px;
@@ -88,17 +97,36 @@ h2{
 }
 
 .heading-Info{
- margin-left: 5%;
- margin-right: 5%;
+ margin-left: 10%;
+ margin-right: 10%;
 
 }
 
 .Links{
-    background: rgba(255, 255, 255, 1);
+    background: rgba(39, 39, 39, 1);
     height: 39.331298828125px;
     width: 107.26717376708984px;
     left: 192px;
     top: 371.1259460449219px;
     border-radius: 3.673900842666626px;
+    margin-right: 1%;
+    margin-top: 0%;
+    padding-bottom: 5px;
 
+}
+
+.margin-top{
+    margin-top: 5%;
+}
+
+.links-Info{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row; 
+}
+
+.bpro{
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-right: 10%;
 }
