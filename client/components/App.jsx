@@ -1,10 +1,17 @@
 import React from 'react'
-import landingPage from './landingPage'
+
+import Nav from './Nav'
+import LandingPage from './landingPage'
+
+
+
+
 
 const App = () => {
   return (
   <>
-  {landingPage}
+    <Nav/>
+    <LandingPage/>
   </>
 
     )
