@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgba(238, 238, 238, 1);
+    background-color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     margin: 0px;
 }
@@ -19,13 +19,13 @@ p{
 }
 
 a {
-    color: rgba(39, 39, 39, 1);
+    color: rgb(255, 255, 255);
     text-decoration: none;
   }
     
   a:hover 
   {
-     color:rgb(14, 14, 14); 
+     color:rgb(63, 199, 124); 
      text-decoration:none; 
      cursor:pointer;  
   }
@@ -57,6 +57,19 @@ h2{
     color: rgba(39, 39, 39, 1);
 
 }
+
+
+.logo-home-page{
+    margin-left: 30%;
+    margin-right: 60%;
+    padding-top: 2%;
+}
+
+.heading-text{
+margin-left: 40%;
+margin-right: 30%;
+}
+
 
 .red{
     color: red;
@@ -97,10 +110,14 @@ h2{
     align-content: center;
 }
 
-.heading-Info{
+/* .heading-Info{
  margin-left: 10%;
  margin-right: 10%;
 
+} */
+
+.Links-Section{
+ margin-left: 30%;
 }
 
 .Links{
