@@ -13,8 +13,8 @@ const App = () => {
   <>
     {/* <Nav/> */}
     <LandingPage/>
-    <Bprojects/>
-    <Currentpro/>
+    {/* <Bprojects/> */}
+    {/* <Currentpro/> */}
 
   </>
 
